@@ -6,9 +6,9 @@ set mouse=a
 set number relativenumber
 set nu rnu
 
-call plug#begin()
-Plug 'lervag/vimtex'
-Plug 'jceb/vim-orgmode'
-Plug 'tpope/vim-speeddating'
-call plug#end()
+"call plug#begin()
+"Plug 'lervag/vimtex'
+"Plug 'jceb/vim-orgmode'
+"Plug 'tpope/vim-speeddating'
+"call plug#end()
 
