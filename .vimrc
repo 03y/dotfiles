@@ -11,6 +11,9 @@ set smartcase
 
 set mouse=a
 
+set listchars=tab:→\ ,trail:·,extends:>,precedes:<,space:·
+set list
+
 " turn hybrid line numbers on
 set number relativenumber
 set nu rnu
