@@ -11,8 +11,14 @@ set smartcase
 
 set mouse=a
 
+nmap <F8> :TagbarToggle<CR>
+autocmd FileType c,cpp,go,py nested :TagbarOpen
+
 set listchars=tab:→\ ,trail:·,extends:>,precedes:<,space:·
 set list
+
+" spell check
+hi SpellBad term=underline cterm=underline ctermfg=9 ctermbg=303030 gui=undercurl guisp=Red
 
 " turn hybrid line numbers on
 set number relativenumber
@@ -57,5 +63,7 @@ Plug 'jceb/vim-orgmode'
 Plug 'tpope/vim-speeddating'
 Plug 'jstemmer/gotags'
 Plug 'fatih/vim-go'
+Plug 'wolandark/vim-live-server'
+Plug 'majutsushi/tagbar'
 call plug#end()
 
